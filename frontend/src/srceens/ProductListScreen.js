@@ -1,5 +1,5 @@
 import DashboardMenu from '../components/DashboardMenu';
-import { getProducts, createProduct, deleteProduct } from '../api';
+import { getProducts, createProduct, deleteProduct, getAllproducts } from '../api';
 import { showLoading, hideLoading, rerender, showMessage } from '../utils';
 
 const ProductListScreen = {
@@ -33,7 +33,7 @@ const ProductListScreen = {
     });
   },
   render: async () => {
-    const products = await getProducts();
+    const products = await getAllproducts();
     return `
     <div class="dashboard">
     ${DashboardMenu.render({ selected: 'products' })}

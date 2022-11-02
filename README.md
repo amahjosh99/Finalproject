@@ -34,6 +34,7 @@ $ npm start
 # open new terminal
 $ cd frontend
 $ npm install
+# npm run build
 $ npm start
 ```
 ### 6. Create Admin User

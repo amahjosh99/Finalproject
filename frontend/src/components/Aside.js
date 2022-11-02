@@ -14,6 +14,30 @@ const Aside = {
         </a>
       </li>
       <li>
+        <a href="/#/?q=laptop"
+          >Laptops
+          <span><i class="fa fa-chevron-right"></i></span>
+        </a>
+      </li>
+      <li>
+        <a href="/#/?q=phoneholder"
+          >PhoneHolders
+          <span><i class="fa fa-chevron-right"></i></span>
+        </a>
+      </li>
+      <li>
+        <a href="/#/?q=monitor"
+          >Monitors
+          <span><i class="fa fa-chevron-right"></i></span>
+        </a>
+      </li>
+      <li>
+        <a href="/#/?q=sunglass"
+          >Sunglasses
+          <span><i class="fa fa-chevron-right"></i></span>
+        </a>
+      </li>
+      <li>
         <a href="/#/?q=pant"
           >Pants
           <span><i class="fa fa-chevron-right"></i></span>
